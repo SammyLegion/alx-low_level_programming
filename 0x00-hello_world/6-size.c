@@ -1,16 +1,21 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
  *main - entry point
-
  *Return: returns zero if successful
  */
 int main(void)
 {
-	printf("Size of a char: %d byte(s)\n", sizeof(char));
-	printf("Size of an int: %d byte(s)\n", sizeof(int));
-	printf("Size of long int: %d byte(s)\n", sizeof(long int));
-	printf("Size of long long int: %d byte(s)\n", sizeof(long long int));
-	printf("Size of a float: %d byte(s)\n", sizeof(float));
+	int charSize = sizeof(char);
+	int intSize = sizeof(int);
+	int longSize = sizeof(long int);
+	int longlongSize = sizeof(long long int);
+	int floatsize = sizeof(float);
+
+	printf("Size of a char: %d byte(s)\n", charSize);
+	printf("Size of an int: %d byte(s)\n", intSize);
+	printf("Size of long int: %d byte(s)\n", longSize);
+	printf("Size of long long int: %d byte(s)\n", longlongSize);
+	printf("Size of a float: %d byte(s)\n", floatSize);
 	return (0);
 }
