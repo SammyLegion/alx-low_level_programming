@@ -1,21 +1,15 @@
-#include <stdio.h>
-
-
+#include<stdio.h>
 
 /**
-* main - finds and prints the sum of the even-valued terms followed by a new line 
-* Return: Always 0 (Success)
-*/
+ * main - finds main stuff & does main shit
+ * Return: returns 0 as usual when success
+ */
 
 int main(void)
 
 {
-
 	int i;
-
 	unsigned long int j, k, next, sum;
-
-
 
 	j = 1;
 
@@ -23,12 +17,9 @@ int main(void)
 
 	sum = 0;
 
-
-
 	for (i = 1; i <= 33; ++i)
 
 	{
-
 		if (j < 4000000 && (j % 2) == 0)
 
 		{			sum = sum + j;
