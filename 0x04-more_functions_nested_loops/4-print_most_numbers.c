@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
 * print_most_numbers - program that writes the numbers from 0-9
 * don't print 2 and 4

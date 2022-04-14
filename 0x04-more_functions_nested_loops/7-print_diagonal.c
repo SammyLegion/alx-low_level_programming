@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
 * print_diagonal - function that draws a diagonal line in the terminal.
 * @n: number of spaces to be printed \

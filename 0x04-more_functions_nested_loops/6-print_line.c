@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
 * print_line - function that draws a straighr line in the terminal.
 * @n: number of spaces to be printed _

@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
 * print_numbers - program that writes the numbers from 0-9
 *
