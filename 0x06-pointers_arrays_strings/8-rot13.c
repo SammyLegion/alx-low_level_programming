@@ -18,4 +18,4 @@ char *rot13(char *src)
 			src[i] = c[src[i] - 'A'];
 	}
 	return (src);
-}:
+}
